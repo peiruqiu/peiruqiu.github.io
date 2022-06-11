@@ -98,24 +98,22 @@ body {
 }
 
 
-/* 網頁內容 */
-.container{
-    width: 100%;
-    height: auto;
-    margin: 0 auto;
-}
-
-
 /* 頁首 開始*/
 /* 頁首 */
 header{
     width: 100%;
     height: auto;
-    padding: 0 20px;
+    padding: 0 40px;
     margin: 0 auto;
     position: fixed;
     top: 0;
     z-index: 1;
+}
+
+@media (max-width: 414px){
+    header{
+        padding: 0 20px;
+    }
 }
 
 
@@ -177,7 +175,6 @@ header{
 }
 
 
-
 /* 頁首 Scroll 滑鼠滾動 header 改變樣式 
 jquery 互動應用
 jquery/header_scroll_style.js*/
@@ -197,6 +194,14 @@ jquery/header_scroll_style.js*/
     margin: 8px 0;
 }
 /* 頁首 結束*/
+
+
+/* 網頁內容 */
+.container{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
 
 
 /* 首圖區塊 開始 */
